@@ -1,0 +1,76 @@
+// This file contains all colors, font sizes, margins, paddings, etc...
+// Everything that could be measured and appears in the application more than 2 times
+
+//Fonts
+
+$fs-h1: 44px;
+$fs-h2: 32px;
+$fs-body-1: 18px;
+$fs-body-2: 14px;
+$fs-caption: 10px;
+$fs-label-large: 18px;
+$fs-label-medium: 16px;
+$fs-label: 14px;
+$fs-input: 12px;
+$fs-input-header: 20px;
+
+//Line heights
+
+$lh-h1: 66px;
+$lh-h2: 48px;
+$lh-h3: 24px;
+$lh-body-1: 27px;
+$lh-body-2: 18px;
+$lh-caption: 15px;
+$lh-label-large: 22px;
+$lh-label-medium: 24px;
+$lh-label: 17px;
+$lh-input: 18px;
+
+//Font weights
+
+$fw-h1: 400;
+$fw-h2: 500;
+$fw-body-1: 400;
+$fw-body-2: 400;
+$fw-caption: 400;
+$fw-label-large: 600;
+$fw-label-medium: 400;
+$fw-label: 400;
+$fw-input: 400;
+
+// Colors
+$white: #FFFFFF;
+$light-gray: #C4C4C4;
+$gray: #9F9F9F;
+$dark-gray: #404040;
+$accent-active: #FFDA00;
+$accent-selected: #FFE234;
+$accent-hover: #FFEE8A;
+$accent-inactive: #FFFBE3;
+$danger: #F83B3B;
+$danger-bg: #FEEBEB;
+$info: #5473E1;
+$success: #6CD35B;
+$success-bg: #E8ECF9;
+$active-btn: #585858;
+$hover-btn: #CFCFCF;
+// check it !!!
+$medium-contrast: #9F9F9F;
+
+// Colors CSS variables
+:root {
+  --white: #{$white};
+  --light-gray: #{$light-gray};
+  --gray: #{$gray};
+  --dark-gray: #{$dark-gray};
+  --accent-active: #{$accent-active};
+  --accent-selected: #{$accent-selected};
+  --accent-hover: #{$accent-hover};
+  --accent-inactive: #{$accent-inactive};
+  --danger: #{$danger};
+  --danger-bg: #{$danger-bg};
+  --info: #{$info};
+  --success: #{$success};
+  --success-bg: #{$success-bg};
+}
